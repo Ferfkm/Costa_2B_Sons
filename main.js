@@ -5,7 +5,7 @@ const listadeTeclas = document.querySelectorAll(".tecla");
 
 let contador = 0;
 while(contador < 9 ){
-    listaDeTeclas[contador].onclick = tocaSomAplausos;
+    listaDeTeclas[contador].onclick = tocaSomRisada;
     contador = contador + 1;
     console.log(contador);
 }
